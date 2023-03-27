@@ -1,0 +1,167 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+.game_container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.game_status_container {
+  display: flex;
+  align-items: center;
+  height: 50%;
+}
+
+.game_type_interface {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+.hangman_image_container {
+  height:100%;
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  outline: 1px solid black;
+}
+
+.words_container {
+  height:100%;
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  outline: 1px solid black;
+}
+.words_container > label{
+  display: flex;
+  gap:25px;
+  align-items: center;
+}
+.v-keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  position: relative;
+}
+
+/* Base button style */
+.alphabet-btn {
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #4CAF50;
+  border-radius: 4px;
+  outline: none;
+
+  box-sizing: border-box;
+  width: calc(100% / 8);
+  height: 50px;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Hover state */
+.alphabet-btn:hover {
+  background-color: #3e8e41;
+}
+
+/* Disabled state */
+.alphabet-btn:disabled {
+  background-color: #9e9e9e;
+  cursor: not-allowed;
+}
+
+/* Active state */
+.alphabet-btn:active {
+  background-color: #1e5229;
+}
+
+
+/* Set the container size and position */
+.keyboard-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+/* Set the size and position of the help and reset buttons */
+.help-btn, .restart-btn {
+  box-sizing: border-box;
+  width: calc(100% / 8);
+  height: 50px;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #428bca;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.restart-btn {
+  background-color: red;
+}
+
+
+.modal {
+  position: absolute;
+  min-width: 300px;
+  background-color: #fff;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  border: 1px solid grey;
+  box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+.help-modal{
+  gap:25px;
+}
+.help-header{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.help-header span{
+  cursor: pointer;
+  font-weight: bold;
+}
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+}
+
+.modal-header span {
+  cursor: pointer;
+}
+
+section{
+  outline: 1px solid black;
+}

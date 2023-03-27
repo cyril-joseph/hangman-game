@@ -1,0 +1,33 @@
+{
+    "keyboard_keys":[
+        {"letter": "Q", "id": 1},
+        {"letter": "W", "id": 2},
+        {"letter": "E", "id": 3},
+        {"letter": "R", "id": 4},
+        {"letter": "T", "id": 5},
+        {"letter": "Y", "id": 6},
+        {"letter": "U", "id": 7},
+        {"letter": "I", "id": 8},
+        {"letter": "O", "id": 9},
+        {"letter": "P", "id": 10},
+        {"letter": "A", "id": 11},
+        {"letter": "S", "id": 12},
+        {"letter": "D", "id": 13},
+        {"letter": "F", "id": 14},
+        {"letter": "G", "id": 15},
+        {"letter": "H", "id": 16},
+        {"letter": "J", "id": 17},
+        {"letter": "K", "id": 18},
+        {"letter": "L", "id": 19},
+        {"letter": "Z", "id": 20},
+        {"letter": "X", "id": 21},
+        {"letter": "Help", "id":27, "title": "Press to show instructions"},
+        {"letter": "C", "id": 22},
+        {"letter": "V", "id": 23},
+        {"letter": "B", "id": 24},
+        {"letter": "N", "id": 25},
+        {"letter": "M", "id": 26},
+        {"letter": "Restart", "id":28, "title": "Retart the game!"}
+
+      ]      
+}
